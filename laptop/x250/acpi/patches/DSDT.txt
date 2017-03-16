@@ -1,0 +1,14 @@
+# rename XHCI to XHC
+into device label XHCI set_label begin XHC end;
+into_all all code_regex XHCI\. replaceall_matched begin XHC. end;
+into_all all code_regex \.XHCI, replaceall_matched begin .XHC, end;
+
+
+into definitionblock code_regex . insert
+begin
+External (_SB.PCI0.LPC.EC.BATC, DeviceObj)
+External (BATC, DeviceObj)
+end;
+
+into_all all code_regex Notify\s+\(\\_SB.PCI0.LPC.EC.BAT\d+ replaceall_matched begin Notify (\\_SB.PCI0.LPC.EC.BATC end;
+

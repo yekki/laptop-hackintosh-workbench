@@ -1,0 +1,80 @@
+11:561  10:758  Found BIOS RSDP at F00E0
+11:561  0:000  Printing ACPI tables from RSDP F00E0 ...
+11:561  0:000   F00E0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:561  0:000    (Xsdt: 0, Rsdt: 0)
+11:561  0:000   No Rsdt and Xsdt - exiting.
+11:561  0:000  Found UEFI Acpi 2.0 RSDP at DAFFE014
+11:561  0:000  Saving ACPI tables from RSDP DAFFE014 to EFI\CLOVER\ACPI\origin ...
+11:561  0:000   DAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+11:573  0:011    (Xsdt: DAFFE120, Rsdt: DAFFE0AC)
+11:573  0:000    DAFFE120: 'XSDT', 'TP-8D   ', Rev: 1, Len: 164 -> XSDT.aml
+11:579  0:005    DAFFE0AC: 'RSDT', 'TP-8D   ', Rev: 1, Len: 100 -> RSDT.aml
+11:585  0:005    Tables in Xsdt: 16
+11:585  0:000    0. DAFE7000: 'FACP', 'TP-8D   ', Rev: 4, Len: 244 -> FACP.aml
+11:689  0:104        (Dsdt: DAFEA000, Facs: DAF2D000, XDsdt: DAFEA000, XFacs: DAF2D000)
+11:689  0:000        DAFEA000: 'DSDT', 'TP-8D   ', Rev: 1, Len: 64137 -> DSDT.aml
+11:752  0:063        DAF2D000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+11:758  0:005    1. DAFFD000: 'SLIC', 'TP-8D   ', Rev: 1, Len: 374 -> SLIC.aml
+11:764  0:005    2. DAFFC000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 585 -> SSDT-0.aml
+11:770  0:005    3. DAFFB000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-1.aml
+11:776  0:005    4. DAFFA000: 'SSDT', 'SataAhci', Rev: 1, Len: 2001 -> SSDT-2.aml
+11:781  0:005    5. DAFE6000: 'HPET', 'TP-8D   ', Rev: 1, Len: 56 -> HPET.aml
+11:787  0:005    6. DAFE5000: 'APIC', 'TP-8D   ', Rev: 1, Len: 152 -> APIC.aml
+11:793  0:005    7. DAFE4000: 'MCFG', 'TP-8D   ', Rev: 1, Len: 60 -> MCFG.aml
+11:799  0:005    8. DAFE3000: 'ECDT', 'TP-8D   ', Rev: 1, Len: 82 -> ECDT.aml
+11:804  0:005    9. DAFE9000: 'ASF!', 'TP-8D   ', Rev: 32, Len: 165 -> ASF!.aml
+11:813  0:008    10. DAFE2000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+11:819  0:006    11. DAFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2599 -> SSDT-3.aml
+11:826  0:006    12. DAFE0000: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+11:826  0:000        * D85E1018: 'E', 'E', Rev: 67, Len: 6029385  45 00 46 00 49 00 5C 00 43 00 4C 00 4F 00 56 00       * DAE8DA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-5x.aml
+11:832  0:006        * DAE8C018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2240  53 53 44 54 C0 08 00 00 01 50 50 6D 52 65 66 00 Internal length = 2240 -> SSDT-6x.aml
+11:839  0:006        * DAE8BD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-7x.aml
+11:845  0:006   -> SSDT-4.aml
+11:852  0:006    13. DAFDF000: 'UEFI', 'TP-8D   ', Rev: 1, Len: 62 -> UEFI.aml
+11:858  0:006    14. DAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+11:869  0:010    15. DAFDD000: 'UEFI', 'TP-8D   ', Rev: 1, Len: 658 -> UEFI.aml
+11:879  0:010    Tables in Rsdt: 16
+11:879  0:000    0. DAFE8000: 'FACP', 'TP-8D   ', Rev: 1, Len: 116 -> RSDT-FACP.aml
+11:886  0:007        (Dsdt: DAFEA000, Facs: DAF2D000)
+11:886  0:000        DAFEA000: 'DSDT', 'TP-8D   ', Rev: 1, Len: 64137
+11:888  0:001        DAF2D000: 'FACS', Ver: 1, Len: 64
+11:888  0:000    1. DAFFD000: 'SLIC', 'TP-8D   ', Rev: 1, Len: 374
+11:888  0:000    2. DAFFC000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 585
+11:888  0:000    3. DAFFB000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:888  0:000    4. DAFFA000: 'SSDT', 'SataAhci', Rev: 1, Len: 2001
+11:888  0:000    5. DAFE6000: 'HPET', 'TP-8D   ', Rev: 1, Len: 56
+11:888  0:000    6. DAFE5000: 'APIC', 'TP-8D   ', Rev: 1, Len: 152
+11:888  0:000    7. DAFE4000: 'MCFG', 'TP-8D   ', Rev: 1, Len: 60
+11:888  0:000    8. DAFE3000: 'ECDT', 'TP-8D   ', Rev: 1, Len: 82
+11:888  0:000    9. DAFE9000: 'ASF!', 'TP-8D   ', Rev: 32, Len: 165
+11:888  0:000    10. DAFE2000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+11:888  0:000    11. DAFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2599
+11:888  0:000    12. DAFE0000: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+11:888  0:000    13. DAFDF000: 'UEFI', 'TP-8D   ', Rev: 1, Len: 62
+11:888  0:000    14. DAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+11:888  0:000    15. DAFDD000: 'UEFI', 'TP-8D   ', Rev: 1, Len: 658
+11:888  0:000  Found UEFI Acpi 1.0 RSDP at DAFFE000
+11:888  0:000  Printing ACPI tables from RSDP DAFFE000 ...
+11:888  0:000   DAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+11:888  0:000    (Rsdt: DAFFE038)
+11:888  0:000    DAFFE038: 'RSDT', 'TP-8D   ', Rev: 1, Len: 96
+11:888  0:000    Tables in Rsdt: 15
+11:888  0:000    0. DAFE8000: 'FACP', 'TP-8D   ', Rev: 1, Len: 116
+11:888  0:000        (Dsdt: DAFEA000, Facs: DAF2D000)
+11:888  0:000        DAFEA000: 'DSDT', 'TP-8D   ', Rev: 1, Len: 64137
+11:889  0:001        DAF2D000: 'FACS', Ver: 1, Len: 64
+11:889  0:000    1. DAFFC000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 585
+11:889  0:000    2. DAFFB000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:889  0:000    3. DAFFA000: 'SSDT', 'SataAhci', Rev: 1, Len: 2001
+11:889  0:000    4. DAFE6000: 'HPET', 'TP-8D   ', Rev: 1, Len: 56
+11:889  0:000    5. DAFE5000: 'APIC', 'TP-8D   ', Rev: 1, Len: 152
+11:889  0:000    6. DAFE4000: 'MCFG', 'TP-8D   ', Rev: 1, Len: 60
+11:889  0:000    7. DAFE3000: 'ECDT', 'TP-8D   ', Rev: 1, Len: 82
+11:889  0:000    8. DAFE9000: 'ASF!', 'TP-8D   ', Rev: 32, Len: 165
+11:889  0:000    9. DAFE2000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+11:889  0:000    10. DAFE1000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2599
+11:889  0:000    11. DAFE0000: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+11:889  0:000    12. DAFDF000: 'UEFI', 'TP-8D   ', Rev: 1, Len: 62
+11:889  0:000    13. DAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+11:889  0:000    14. DAFDD000: 'UEFI', 'TP-8D   ', Rev: 1, Len: 658

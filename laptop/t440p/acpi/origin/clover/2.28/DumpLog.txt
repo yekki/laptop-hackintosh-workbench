@@ -1,0 +1,146 @@
+11:048  3:007  Found BIOS RSDP at F0120
+11:048  0:000  Printing ACPI tables from RSDP F0120 ...
+11:048  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:048  0:000    (Xsdt: BCEFE170, Rsdt: BCEFE0D4)
+11:048  0:000    BCEFE170: 'XSDT', 'TP-GL   ', Rev: 1, Len: 212
+11:048  0:000    BCEFE0D4: 'RSDT', 'TP-GL   ', Rev: 1, Len: 124
+11:048  0:000    Tables in Xsdt: 22
+11:048  0:000    0. BCEF8000: 'FACP', 'TP-GL   ', Rev: 5, Len: 268
+11:048  0:000        (Dsdt: BCEE1000, Facs: BCE4A000, XDsdt: BCEE1000, XFacs: 0)
+11:048  0:000        BCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 71914
+11:049  0:001        BCE4A000: 'FACS', Ver: 2, Len: 64
+11:049  0:000    1. BCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+11:049  0:000    2. BCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+11:049  0:000    3. BCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+11:049  0:000    4. BCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+11:049  0:000    5. BCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+11:049  0:000    6. BCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+11:049  0:000    7. BCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:049  0:000    8. BCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+11:049  0:000    9. BCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+11:049  0:000    10. BCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+11:049  0:000    11. BCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:049  0:000    12. BCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+11:049  0:000    13. BCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+11:049  0:000    14. BCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+11:049  0:000    15. BCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+11:049  0:000    16. BCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+11:049  0:000    17. BCE42000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+11:049  0:000    18. BCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+11:049  0:000    19. BCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+11:049  0:000    20. BCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+11:049  0:000    21. BCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 738
+11:049  0:000    Tables in Rsdt: 22
+11:049  0:000    0. BCEF9000: 'FACP', 'TP-GL   ', Rev: 1, Len: 116
+11:049  0:000        (Dsdt: BCEE1000, Facs: BCE4A000)
+11:049  0:000        BCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 71914
+11:051  0:001        BCE4A000: 'FACS', Ver: 2, Len: 64
+11:051  0:000    1. BCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+11:051  0:000    2. BCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+11:051  0:000    3. BCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+11:051  0:000    4. BCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+11:051  0:000    5. BCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+11:051  0:000    6. BCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+11:051  0:000    7. BCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:051  0:000    8. BCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+11:051  0:000    9. BCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+11:051  0:000    10. BCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+11:051  0:000    11. BCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:051  0:000    12. BCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+11:051  0:000    13. BCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+11:051  0:000    14. BCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+11:051  0:000    15. BCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+11:051  0:000    16. BCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+11:051  0:000    17. BCE42000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+11:051  0:000    18. BCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+11:051  0:000    19. BCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+11:051  0:000    20. BCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+11:051  0:000    21. BCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 738
+11:051  0:000  Found UEFI Acpi 2.0 RSDP at BCEFE014
+11:051  0:000  Saving ACPI tables from RSDP BCEFE014 to EFI\CLOVER\ACPI\origin ...
+11:051  0:000   BCEFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:051  0:000    (Xsdt: BCEFE170, Rsdt: BCEFE0D4)
+11:051  0:000    BCEFE170: 'XSDT', 'TP-GL   ', Rev: 1, Len: 212
+11:051  0:000    BCEFE0D4: 'RSDT', 'TP-GL   ', Rev: 1, Len: 124
+11:051  0:000    Tables in Xsdt: 22
+11:051  0:000    0. BCEF8000: 'FACP', 'TP-GL   ', Rev: 5, Len: 268
+11:051  0:000        (Dsdt: BCEE1000, Facs: BCE4A000, XDsdt: BCEE1000, XFacs: 0)
+11:051  0:000        BCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 71914
+11:052  0:001        BCE4A000: 'FACS', Ver: 2, Len: 64
+11:052  0:000    1. BCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+11:052  0:000    2. BCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+11:052  0:000    3. BCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+11:052  0:000    4. BCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+11:052  0:000    5. BCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+11:052  0:000    6. BCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+11:052  0:000    7. BCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:052  0:000    8. BCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+11:052  0:000    9. BCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+11:052  0:000    10. BCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+11:052  0:000    11. BCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:052  0:000    12. BCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+11:052  0:000    13. BCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+11:052  0:000    14. BCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+11:052  0:000    15. BCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+11:052  0:000    16. BCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+11:052  0:000    17. BCE42000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+11:052  0:000    18. BCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+11:052  0:000    19. BCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+11:052  0:000    20. BCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+11:052  0:000    21. BCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 738
+11:052  0:000    Tables in Rsdt: 22
+11:052  0:000    0. BCEF9000: 'FACP', 'TP-GL   ', Rev: 1, Len: 116
+11:052  0:000        (Dsdt: BCEE1000, Facs: BCE4A000)
+11:052  0:000        BCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 71914
+11:054  0:001        BCE4A000: 'FACS', Ver: 2, Len: 64
+11:054  0:000    1. BCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+11:054  0:000    2. BCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+11:054  0:000    3. BCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+11:054  0:000    4. BCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+11:054  0:000    5. BCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+11:054  0:000    6. BCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+11:054  0:000    7. BCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:054  0:000    8. BCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+11:054  0:000    9. BCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+11:054  0:000    10. BCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+11:054  0:000    11. BCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:054  0:000    12. BCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+11:054  0:000    13. BCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+11:054  0:000    14. BCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+11:054  0:000    15. BCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+11:054  0:000    16. BCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+11:054  0:000    17. BCE42000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+11:054  0:000    18. BCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+11:054  0:000    19. BCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+11:054  0:000    20. BCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+11:054  0:000    21. BCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 738
+11:054  0:000  Found UEFI Acpi 1.0 RSDP at BCEFE000
+11:054  0:000  Printing ACPI tables from RSDP BCEFE000 ...
+11:054  0:000   BCEFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+11:054  0:000    (Rsdt: BCEFE038)
+11:054  0:000    BCEFE038: 'RSDT', 'TP-GL   ', Rev: 1, Len: 120
+11:054  0:000    Tables in Rsdt: 21
+11:054  0:000    0. BCEF9000: 'FACP', 'TP-GL   ', Rev: 1, Len: 116
+11:054  0:000        (Dsdt: BCEE1000, Facs: BCE4A000)
+11:054  0:000        BCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 71914
+11:055  0:001        BCE4A000: 'FACS', Ver: 2, Len: 64
+11:055  0:000    1. BCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+11:055  0:000    2. BCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+11:055  0:000    3. BCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+11:055  0:000    4. BCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+11:055  0:000    5. BCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+11:055  0:000    6. BCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+11:055  0:000    7. BCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+11:055  0:000    8. BCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+11:055  0:000    9. BCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+11:055  0:000    10. BCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:055  0:000    11. BCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+11:055  0:000    12. BCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+11:055  0:000    13. BCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+11:055  0:000    14. BCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+11:055  0:000    15. BCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+11:055  0:000    16. BCE42000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+11:055  0:000    17. BCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+11:055  0:000    18. BCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+11:055  0:000    19. BCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+11:055  0:000    20. BCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 738

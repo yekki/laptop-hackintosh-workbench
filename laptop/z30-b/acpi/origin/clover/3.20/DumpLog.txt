@@ -1,0 +1,82 @@
+3:617  2:727  Found BIOS RSDP at F0030
+3:617  0:000  Printing ACPI tables from RSDP F0030 ...
+3:617  0:000   F0030: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+3:617  0:000    (Rsdt: 0)
+3:617  0:000   No Rsdt and Xsdt - exiting.
+3:617  0:000  Found UEFI Acpi 2.0 RSDP at D90EE014
+3:617  0:000  Saving ACPI tables from RSDP D90EE014 to EFI\CLOVER\ACPI\origin ...
+3:617  0:000   D90EE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:623  0:006    (Xsdt: D90ED0E8, Rsdt: D90ED074)
+3:623  0:000    D90ED0E8: 'XSDT', 'A0096   ', Rev: 1, Len: 164 -> XSDT.aml
+3:631  0:008    D90ED074: 'RSDT', 'A0096   ', Rev: 1, Len: 100 -> RSDT.aml
+3:640  0:008    Tables in Xsdt: 16
+3:640  0:000    0. D90EC000: 'FACP', 'A0096   ', Rev: 5, Len: 268 -> FACP.aml
+3:649  0:008        (Dsdt: D90CF000, Facs: D90AA000, XDsdt: D90CF000, XFacs: 0)
+3:649  0:000        D90CF000: 'DSDT', 'A0096   ', Rev: 2, Len: 75343 -> DSDT.aml
+3:663  0:014        D90AA000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+3:671  0:007    1. D90EB000: 'HPET', 'A0096   ', Rev: 1, Len: 56 -> HPET.aml
+3:679  0:007    2. D90EA000: 'APIC', 'A0096   ', Rev: 1, Len: 188 -> APIC.aml
+3:687  0:008    3. D90E9000: 'MCFG', 'A0096   ', Rev: 1, Len: 60 -> MCFG.aml
+3:696  0:008    4. D90E8000: 'ASF!', 'A0096   ', Rev: 32, Len: 160 -> ASF!.aml
+3:705  0:009    5. D90E6000: 'BOOT', 'A0096   ', Rev: 1, Len: 40 -> BOOT.aml
+3:713  0:007    6. D90E5000: 'MSDM', 'A0096   ', Rev: 3, Len: 85 -> MSDM.aml
+3:721  0:007    7. D90E4000: 'SLIC', 'A0096   ', Rev: 1, Len: 374 -> SLIC.aml
+3:728  0:007    8. D90E3000: 'DBGP', 'A0096   ', Rev: 1, Len: 52 -> DBGP.aml
+3:737  0:008    9. D90CE000: 'SSDT', 'SataAhci', Rev: 2, Len: 1017 -> SSDT-0.aml
+3:749  0:011    10. D90C8000: 'SSDT', 'MacUniq2', Rev: 2, Len: 1549 -> SSDT-1.aml
+3:756  0:007    11. D90C7000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1510 -> SSDT-2.aml
+3:765  0:008    12. D90C6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2912
+ Found hidden SSDT 4 pcs
+3:765  0:000        * D8150998: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1510  53 53 44 54 E6 05 00 00 02 D1 50 6D 52 65 66 00 Internal length = 1510 -> SSDT-4x.aml
+3:774  0:009        * D9FCF618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 B9 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-5x.aml
+3:785  0:010        * D9FCFC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 979 -> SSDT-6x.aml
+3:793  0:008        * D9FCED98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 D5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-7x.aml
+3:802  0:008   -> SSDT-3.aml
+3:811  0:008    13. D90C4000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 4831 -> SSDT-8.aml
+3:824  0:013    14. D90E2000: 'FPDT', 'A0096   ', Rev: 1, Len: 68 -> FPDT.aml
+3:833  0:008    15. D90C3000: 'BGRT', 'A0096   ', Rev: 1, Len: 56 -> BGRT.aml
+3:842  0:008    Tables in Rsdt: 16
+3:842  0:000    0. D90EC000: 'FACP', 'A0096   ', Rev: 5, Len: 268
+3:842  0:000        (Dsdt: D90CF000, Facs: D90AA000, XDsdt: D90CF000, XFacs: 0)
+3:842  0:000        D90CF000: 'DSDT', 'A0096   ', Rev: 2, Len: 75343
+3:844  0:001        D90AA000: 'FACS', Ver: 1, Len: 64
+3:844  0:000    1. D90EB000: 'HPET', 'A0096   ', Rev: 1, Len: 56
+3:844  0:000    2. D90EA000: 'APIC', 'A0096   ', Rev: 1, Len: 188
+3:844  0:000    3. D90E9000: 'MCFG', 'A0096   ', Rev: 1, Len: 60
+3:844  0:000    4. D90E8000: 'ASF!', 'A0096   ', Rev: 32, Len: 160
+3:844  0:000    5. D90E6000: 'BOOT', 'A0096   ', Rev: 1, Len: 40
+3:844  0:000    6. D90E5000: 'MSDM', 'A0096   ', Rev: 3, Len: 85
+3:844  0:000    7. D90E4000: 'SLIC', 'A0096   ', Rev: 1, Len: 374
+3:844  0:000    8. D90E3000: 'DBGP', 'A0096   ', Rev: 1, Len: 52
+3:844  0:000    9. D90CE000: 'SSDT', 'SataAhci', Rev: 2, Len: 1017
+3:844  0:000    10. D90C8000: 'SSDT', 'MacUniq2', Rev: 2, Len: 1549
+3:844  0:000    11. D90C7000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1510
+3:844  0:000    12. D90C6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2912
+3:844  0:000    13. D90C4000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 4831
+3:844  0:000    14. D90E2000: 'FPDT', 'A0096   ', Rev: 1, Len: 68
+3:844  0:000    15. D90C3000: 'BGRT', 'A0096   ', Rev: 1, Len: 56
+3:844  0:000  Found UEFI Acpi 1.0 RSDP at D90EE000
+3:844  0:000  Printing ACPI tables from RSDP D90EE000 ...
+3:844  0:000   D90EE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+3:844  0:000    (Rsdt: D90ED000)
+3:844  0:000    D90ED000: 'RSDT', 'A0096   ', Rev: 1, Len: 100
+3:844  0:000    Tables in Rsdt: 16
+3:844  0:000    0. D90EC000: 'FACP', 'A0096   ', Rev: 5, Len: 268
+3:844  0:000        (Dsdt: D90CF000, Facs: D90AA000, XDsdt: D90CF000, XFacs: 0)
+3:844  0:000        D90CF000: 'DSDT', 'A0096   ', Rev: 2, Len: 75343
+3:846  0:001        D90AA000: 'FACS', Ver: 1, Len: 64
+3:846  0:000    1. D90EB000: 'HPET', 'A0096   ', Rev: 1, Len: 56
+3:846  0:000    2. D90EA000: 'APIC', 'A0096   ', Rev: 1, Len: 188
+3:846  0:000    3. D90E9000: 'MCFG', 'A0096   ', Rev: 1, Len: 60
+3:846  0:000    4. D90E8000: 'ASF!', 'A0096   ', Rev: 32, Len: 160
+3:846  0:000    5. D90E6000: 'BOOT', 'A0096   ', Rev: 1, Len: 40
+3:846  0:000    6. D90E5000: 'MSDM', 'A0096   ', Rev: 3, Len: 85
+3:846  0:000    7. D90E4000: 'SLIC', 'A0096   ', Rev: 1, Len: 374
+3:846  0:000    8. D90E3000: 'DBGP', 'A0096   ', Rev: 1, Len: 52
+3:846  0:000    9. D90CE000: 'SSDT', 'SataAhci', Rev: 2, Len: 1017
+3:846  0:000    10. D90C8000: 'SSDT', 'MacUniq2', Rev: 2, Len: 1549
+3:846  0:000    11. D90C7000: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1510
+3:846  0:000    12. D90C6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2912
+3:846  0:000    13. D90C4000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 4831
+3:846  0:000    14. D90E2000: 'FPDT', 'A0096   ', Rev: 1, Len: 68
+3:846  0:000    15. D90C3000: 'BGRT', 'A0096   ', Rev: 1, Len: 56

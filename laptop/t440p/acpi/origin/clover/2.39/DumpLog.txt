@@ -1,0 +1,146 @@
+12:152  3:314  Found BIOS RSDP at F0120
+12:152  0:000  Printing ACPI tables from RSDP F0120 ...
+12:152  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:152  0:000    (Xsdt: DCEFE170, Rsdt: DCEFE0D4)
+12:152  0:000    DCEFE170: 'XSDT', 'TP-GL   ', Rev: 1, Len: 212
+12:152  0:000    DCEFE0D4: 'RSDT', 'TP-GL   ', Rev: 1, Len: 124
+12:152  0:000    Tables in Xsdt: 22
+12:152  0:000    0. DCEF8000: 'FACP', 'TP-GL   ', Rev: 5, Len: 268
+12:152  0:000        (Dsdt: DCEE1000, Facs: DCD7A000, XDsdt: DCEE1000, XFacs: 0)
+12:152  0:000        DCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 72103
+12:153  0:001        DCD7A000: 'FACS', Ver: 2, Len: 64
+12:153  0:000    1. DCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+12:153  0:000    2. DCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+12:153  0:000    3. DCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+12:153  0:000    4. DCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+12:153  0:000    5. DCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+12:153  0:000    6. DCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+12:153  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+12:153  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+12:153  0:000    9. DCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+12:153  0:000    10. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+12:153  0:000    11. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+12:153  0:000    12. DCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+12:153  0:000    13. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+12:153  0:000    14. DCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+12:153  0:000    15. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+12:153  0:000    16. DCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+12:153  0:000    17. DCD72000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+12:153  0:000    18. DCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+12:153  0:000    19. DCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+12:153  0:000    20. DCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+12:153  0:000    21. DCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 718
+12:153  0:000    Tables in Rsdt: 22
+12:153  0:000    0. DCEF9000: 'FACP', 'TP-GL   ', Rev: 1, Len: 116
+12:153  0:000        (Dsdt: DCEE1000, Facs: DCD7A000)
+12:153  0:000        DCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 72103
+12:155  0:001        DCD7A000: 'FACS', Ver: 2, Len: 64
+12:155  0:000    1. DCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+12:155  0:000    2. DCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+12:155  0:000    3. DCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+12:155  0:000    4. DCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+12:155  0:000    5. DCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+12:155  0:000    6. DCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+12:155  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+12:155  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+12:155  0:000    9. DCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+12:155  0:000    10. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+12:155  0:000    11. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+12:155  0:000    12. DCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+12:155  0:000    13. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+12:155  0:000    14. DCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+12:155  0:000    15. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+12:155  0:000    16. DCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+12:155  0:000    17. DCD72000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+12:155  0:000    18. DCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+12:155  0:000    19. DCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+12:155  0:000    20. DCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+12:155  0:000    21. DCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 718
+12:155  0:000  Found UEFI Acpi 2.0 RSDP at DCEFE014
+12:155  0:000  Saving ACPI tables from RSDP DCEFE014 to EFI\CLOVER\ACPI\origin ...
+12:155  0:000   DCEFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:155  0:000    (Xsdt: DCEFE170, Rsdt: DCEFE0D4)
+12:155  0:000    DCEFE170: 'XSDT', 'TP-GL   ', Rev: 1, Len: 212
+12:155  0:000    DCEFE0D4: 'RSDT', 'TP-GL   ', Rev: 1, Len: 124
+12:155  0:000    Tables in Xsdt: 22
+12:155  0:000    0. DCEF8000: 'FACP', 'TP-GL   ', Rev: 5, Len: 268
+12:155  0:000        (Dsdt: DCEE1000, Facs: DCD7A000, XDsdt: DCEE1000, XFacs: 0)
+12:155  0:000        DCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 72103
+12:156  0:001        DCD7A000: 'FACS', Ver: 2, Len: 64
+12:156  0:000    1. DCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+12:156  0:000    2. DCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+12:156  0:000    3. DCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+12:156  0:000    4. DCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+12:156  0:000    5. DCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+12:156  0:000    6. DCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+12:156  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+12:156  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+12:156  0:000    9. DCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+12:156  0:000    10. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+12:156  0:000    11. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+12:156  0:000    12. DCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+12:156  0:000    13. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+12:156  0:000    14. DCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+12:156  0:000    15. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+12:156  0:000    16. DCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+12:156  0:000    17. DCD72000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+12:156  0:000    18. DCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+12:156  0:000    19. DCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+12:156  0:000    20. DCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+12:156  0:000    21. DCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 718
+12:156  0:000    Tables in Rsdt: 22
+12:156  0:000    0. DCEF9000: 'FACP', 'TP-GL   ', Rev: 1, Len: 116
+12:156  0:000        (Dsdt: DCEE1000, Facs: DCD7A000)
+12:156  0:000        DCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 72103
+12:158  0:001        DCD7A000: 'FACS', Ver: 2, Len: 64
+12:158  0:000    1. DCEFD000: 'SLIC', 'TP-GL   ', Rev: 1, Len: 374
+12:158  0:000    2. DCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+12:158  0:000    3. DCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+12:158  0:000    4. DCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+12:158  0:000    5. DCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+12:158  0:000    6. DCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+12:158  0:000    7. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+12:158  0:000    8. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+12:158  0:000    9. DCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+12:158  0:000    10. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+12:158  0:000    11. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+12:158  0:000    12. DCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+12:158  0:000    13. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+12:158  0:000    14. DCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+12:158  0:000    15. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+12:158  0:000    16. DCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+12:158  0:000    17. DCD72000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+12:158  0:000    18. DCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+12:158  0:000    19. DCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+12:158  0:000    20. DCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+12:158  0:000    21. DCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 718
+12:158  0:000  Found UEFI Acpi 1.0 RSDP at DCEFE000
+12:158  0:000  Printing ACPI tables from RSDP DCEFE000 ...
+12:158  0:000   DCEFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+12:158  0:000    (Rsdt: DCEFE038)
+12:158  0:000    DCEFE038: 'RSDT', 'TP-GL   ', Rev: 1, Len: 120
+12:158  0:000    Tables in Rsdt: 21
+12:158  0:000    0. DCEF9000: 'FACP', 'TP-GL   ', Rev: 1, Len: 116
+12:158  0:000        (Dsdt: DCEE1000, Facs: DCD7A000)
+12:158  0:000        DCEE1000: 'DSDT', 'TP-GL   ', Rev: 1, Len: 72103
+12:159  0:001        DCD7A000: 'FACS', Ver: 2, Len: 64
+12:159  0:000    1. DCEFB000: 'DBGP', 'TP-GL   ', Rev: 1, Len: 52
+12:159  0:000    2. DCEFA000: 'ECDT', 'TP-GL   ', Rev: 1, Len: 82
+12:159  0:000    3. DCEF7000: 'HPET', 'TP-GL   ', Rev: 1, Len: 56
+12:159  0:000    4. DCEF6000: 'APIC', 'TP-GL   ', Rev: 1, Len: 152
+12:159  0:000    5. DCEF5000: 'MCFG', 'TP-GL   ', Rev: 1, Len: 60
+12:159  0:000    6. DCEF4000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+12:159  0:000    7. DCEF3000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1158
+12:159  0:000    8. DCEE0000: 'SSDT', 'SataAhci', Rev: 1, Len: 2933
+12:159  0:000    9. DCEDF000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1903
+12:159  0:000    10. DCEDE000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+12:159  0:000    11. DCEDC000: 'SSDT', 'SaSsdt ', Rev: 1, Len: 4700
+12:159  0:000    12. DCEDB000: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+12:159  0:000    13. DCEDA000: 'PCCT', 'TP-GL   ', Rev: 5, Len: 110
+12:159  0:000    14. DCED9000: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+12:159  0:000    15. DCED8000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 66
+12:159  0:000    16. DCD72000: 'MSDM', 'TP-GL   ', Rev: 3, Len: 85
+12:159  0:000    17. DCEFC000: 'ASF!', 'TP-GL   ', Rev: 32, Len: 165
+12:159  0:000    18. DCED7000: 'BATB', 'TP-GL   ', Rev: 1, Len: 70
+12:159  0:000    19. DCED6000: 'FPDT', 'TP-GL   ', Rev: 1, Len: 100
+12:159  0:000    20. DCED5000: 'UEFI', 'TP-GL   ', Rev: 1, Len: 718

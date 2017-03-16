@@ -1,0 +1,35 @@
+into method label _PPC parent_label PCCD remove_entry;
+into device label PCCD insert
+begin
+Method(_PPC, 0, NotSerialized)\n
+{\n
+	If (CondRefOf (\_PR.CPU0._PPC))\n
+	{\n
+	    Return (\_PR.CPU0._PPC ())\n
+	}\n
+}\n
+end;
+
+into method label _TSS parent_label PCCD remove_entry;
+into device label PCCD insert
+begin
+Method(_TSS, 0, NotSerialized)\n
+{\n
+	If (CondRefOf (\_PR.CPU0._TSS))\n
+	{\n
+	    Return (\_PR.CPU0._TSS)\n
+	}\n
+}\n
+end;
+
+into method label _PSS parent_label PCCD remove_entry;
+into device label PCCD insert
+begin
+Method(_PSS, 0, NotSerialized)\n
+{\n
+	If (CondRefOf (\_PR.CPU0._PSS))\n
+	{\n
+	    Return (\_PR.CPU0._PSS)\n
+	}\n
+}\n
+end;
