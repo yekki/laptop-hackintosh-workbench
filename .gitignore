@@ -3,6 +3,7 @@ clover/templates/
 stage/
 output/
 
+.yekki_installed
 .DS_Store
 .DS_Store?
 ._*
