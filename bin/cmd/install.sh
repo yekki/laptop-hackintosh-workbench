@@ -83,8 +83,6 @@ function _clover_driver {
 
 function _exec {
 
-  _exists_one "${YEKKI_HOME}/.yekki.installed" && _error "please uninstall ${APP_NAME} ${APP_VER} firstly."
-  
   _init
   _acpi_tools
   _ssdtPRGen

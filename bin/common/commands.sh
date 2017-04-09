@@ -568,13 +568,13 @@ function main {
 
   [ $# -eq 0 ] && help
 
-  if [ ! -f "${YEKKI_HOME}/.yekki.installed" ]
+  if [ -f "${YEKKI_HOME}/.yekki.installed" ]
   then
-    [ $1 != install ] && _error 'please run: "./yekki install" firstly.'
+    [ $1 == install ] && _error "please uninstall or reinstall ${APP_NAME} ${APP_VER} firstly."
+  else
+    [[ $1 != *install ]] && _error 'please run: "./yekki install" firstly.'
   fi
 
-  #[ $1 != debug ] && [ $1 != install ] && [ $1 != uninstall ] & [ $1 != reinstall ]&& ! _exists_one "${YEKKI_HOME}/.yekki.installed" && 
-  
   for c in ${APP_CMD_LIST[@]}; do
     if [ "${c}" = "${1}" ]; then
       if _exists_one "${YEKKI_HOME}/bin/cmd/${1}.sh"; then
