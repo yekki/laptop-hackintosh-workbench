@@ -48,6 +48,7 @@ function disable_ps2_test {
   ioio -s ApplePS2Keyboard LogScanCodes 0
 }
 
+# TODO: Bug - Duplicate download
 function kexts {
   _init
 
@@ -57,7 +58,13 @@ function kexts {
     do
       if _exists_in_array $k "${KEXT_SUPPORTED_LIST[@]}"
       then
-        _fetch_rehabman_kext $k
+        if [ -f "${YEKKI_HOME}/laptop/common/injectors/$k.zip" ]
+        then
+          _cp_if_any_exists "${YEKKI_HOME}/laptop/common/injectors/$k.zip" "${YEKKI_HOME}/stage"
+          _unzip_if_exists "${YEKKI_HOME}/stage/${k}.zip" "${YEKKI_HOME}/output"
+        else
+          _fetch_rehabman_kext $k
+        fi
       else
         _error "kext $k doesn't be supported."
       fi

@@ -114,6 +114,13 @@ function _compile {
   for f in ${_SSDTS[@]}; do iasl -vr -w1 -p "${YEKKI_HOME}/output/${f}.aml" "${YEKKI_HOME}/stage/${f}.dsl"; done
 }
 
+function _add_cust_aml {
+
+  for f in ${ACPI_CUST_LIST[@]}; do 
+    _cp_if_exists "${YEKKI_HOME}/laptop/${YEKKI_LAPTOP_SERIES}/acpi/patches/${f}.aml" "${YEKKI_HOME}/output"
+  done
+}
+
 function _exec {
   _init
 
@@ -122,7 +129,8 @@ function _exec {
   _apply_ssdt_patches
   _add_cust_dsl
   _compile
-
+  _add_cust_aml
+  
   [ "${YEKKI_LAPTOP_SERIES}" = "${YEKKI_LAPTOP_WORKBENCH}" ] && _apply_ssdtPRGen || _info "your working laptop isn't target laptop, you have to generate SSDT.aml manually"
   
   _post_check

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 export YEKKI_HOME=$PWD
-export YEKKI_LAPTOP_SERIES=t440p
-export YEKKI_LAPTOP_WORKBENCH=t440p
+export YEKKI_LAPTOP_SERIES=z30-b
+export YEKKI_LAPTOP_WORKBENCH=z30-b
 export YEKKI_OSX_VER=10.12
 
 source "$YEKKI_HOME/bin/include.sh"

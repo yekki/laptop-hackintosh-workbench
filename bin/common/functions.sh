@@ -203,7 +203,7 @@ function _init {
 # example:
 # _download os-x-eapd-codec-commander RehabMan-CodecCommander
 # _download http://sourceforge.net/projects/osx86drivers/files/latest/download?source=files AppleIntelE1000e.kext.zip 
-# _download https://github.com/vit9696/AppleALC/releases/download/${HDA_ALC_VER}/${HDA_ALC_VER}.RELEASE.zip
+#TODO: BUG -  _download https://github.com/vit9696/AppleALC/releases/download/${HDA_ALC_VER}/${HDA_ALC_VER}.RELEASE.zip
 function _download {
   case $1 in 
     http* )
